@@ -1,8 +1,8 @@
 import { db } from "@/lib/db";
 import { auth } from "@clerk/nextjs/server";
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 
-export const POST = async ({ params }: { params: { courseId: string; sectionId: string; resourceId: string } }) => {
+export const POST = async (request: NextRequest, { params }: { params: { courseId: string; sectionId: string; resourceId: string } }) => {
   try {
     const { userId } = auth();
 

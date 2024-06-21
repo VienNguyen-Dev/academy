@@ -87,7 +87,7 @@ const CreateSectionForm = ({ course }: { course: Course & { sections: Section[] 
             )}
           />
           <div className=" flex gap-5">
-            <Link href={`/intructor/courses/${course.id}/basic`}>
+            <Link href={`/instructor/courses/${course.id}/basic`}>
               <Button type="button" variant={"outline"}>
                 Cancel
               </Button>

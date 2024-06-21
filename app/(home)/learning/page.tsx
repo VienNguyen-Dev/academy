@@ -31,7 +31,7 @@ const LearningPage = async () => {
   return (
     <div className=" px-4 py-6 md:mt-5 md:px-10 lg:px-16">
       <h1 className=" text-xl font-bold">Your Courses</h1>
-      <div className=" flex flex-wrap gap-7">
+      <div className=" flex flex-wrap gap-7 mt-7">
         {purchasedCourse.map((purcharse) => (
           <CourseCard key={purcharse.course.id} course={purcharse.course} />
         ))}

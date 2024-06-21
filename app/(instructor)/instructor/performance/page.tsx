@@ -1,16 +1,16 @@
-import { getPerformence } from "@/app/actions/getPerformence";
+import { getPerformance } from "@/app/actions/getPerformance";
 import Chart from "@/components/performence/Chart";
 import DataCard from "@/components/performence/DataCard";
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 
-const PerformencePage = async () => {
+const PerformancePage = async () => {
   const { userId } = auth();
   if (!userId) {
     return redirect("/sign-in");
   }
 
-  const { data, totalRevenue, totalSales } = await getPerformence(userId);
+  const { data, totalRevenue, totalSales } = await getPerformance(userId);
   return (
     <div className="p-6">
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
@@ -22,4 +22,4 @@ const PerformencePage = async () => {
   );
 };
 
-export default PerformencePage;
+export default PerformancePage;

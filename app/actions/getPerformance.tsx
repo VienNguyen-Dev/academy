@@ -19,7 +19,7 @@ const groupByCource = (purchases: PurchaseWithCourse[]) => {
   return grouped;
 };
 
-export const getPerformence = async (userId: string) => {
+export const getPerformance = async (userId: string) => {
   try {
     const purcharses = await db.purchase.findMany({
       where: {
@@ -46,7 +46,7 @@ export const getPerformence = async (userId: string) => {
       totalSales,
     };
   } catch (error) {
-    console.log(["getPerformence", error]);
+    console.log(["getPerformance", error]);
     return {
       data: [],
       totalRevenue: 0,

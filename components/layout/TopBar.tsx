@@ -28,7 +28,7 @@ const TopBar = () => {
     { label: "Courses", path: "/instructor/courses" },
     {
       label: "Performence",
-      path: "/instructor/performence",
+      path: "/instructor/performance",
     },
   ];
   return (

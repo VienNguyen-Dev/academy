@@ -1,3 +1,4 @@
+"use client";
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer } from "recharts";
 import { Card } from "../ui/card";
 

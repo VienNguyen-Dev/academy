@@ -10,7 +10,7 @@ const SideBar = () => {
     {
       icon: <BarChart4 />,
       label: "Performence",
-      path: "/instructor/performence",
+      path: "/instructor/performance",
     },
   ];
   return (

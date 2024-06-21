@@ -34,3 +34,35 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+https://dev.to/brdnicolas/understanding-use-client-in-nextjs-enhancing-performance-through-client-side-component-mastery-10dg
+
+## SAVE IMAGE...
+
+//uploadthing.com
+
+react-hot-toast
+react-Quill
+
+## DATABASE
+
+//DB:https://console.aiven.io/
+
+## SAVE VIDEO
+
+https://www.mux.com/
+
+npm i @mux/mux-node
+npm i @mux/mux-player-react
+
+## Tao Progress
+
+su dung progress component
+
+## Thong ke
+
+Su dung Card component
+
+## Bieu do
+
+Su dung recharts.com
